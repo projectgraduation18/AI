@@ -1,0 +1,16 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+pydantic==2.10.3
+
+# AI & ML
+google-genai==1.14.0
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+
+# PDF Processing
+PyMuPDF==1.25.1
+
+# Utilities
+numpy>=1.26.0
+requests>=2.31.0

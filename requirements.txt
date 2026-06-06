@@ -1,0 +1,23 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+pydantic==2.10.3
+
+# AI & ML
+google-genai==1.14.0
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+
+# PDF Processing
+PyMuPDF==1.25.1
+pymupdf4llm>=0.0.17          # markdown extraction — بيحافظ على الجداول
+
+# Text splitting (كان ناقص من قبل كده)
+langchain-text-splitters>=0.3.0
+
+# Utilities
+numpy>=1.26.0
+requests>=2.31.0
+
+# Optional reranker — شغّله مع USE_RERANKER=True في config.py
+# FlagEmbedding>=1.3.0
